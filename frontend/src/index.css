@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+
+/* Width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; /* Make the track transparent */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(144, 64, 7, 0.592); /* Reduce opacity of the handle */
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(144, 64, 7, 0.77); /* Increase opacity slightly on hover */
+}
